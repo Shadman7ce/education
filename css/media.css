@@ -1,0 +1,84 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/*header start*/
+	.logo{
+		width: 100px;
+	}
+	.menu ul li a{
+font-weight: 700;
+font-size: 13px;
+color: white !important;
+transition: .5s;
+border-radius: 10px;
+width: 90px;
+
+
+}
+	/*header end*/
+	/*banner start*/
+	.banner-content h1{
+margin-top: 50px;
+margin-bottom: 100px;
+font-size: 20px;
+}
+/*kids1 start*/
+.kids1{
+	padding: 50px 0;
+}
+.common-title{}
+.common-title h1{
+	font-size: 20px;
+	font-weight: 700;
+}
+.common-title hr{
+	width: 150px;
+	border: none;
+	border-bottom: 3px dashed #1ec0ff;
+}
+.school{
+	text-align: center;
+}
+.school hr{ 
+width: 100px;
+margin: 0 auto;
+
+ }
+.school img{
+	width: 100px;
+}
+.school h1{
+	font-size: 18px;
+	letter-spacing: 2px;
+	font-weight: 700;
+}
+.school img{
+	margin-bottom: 20px;
+}
+/*kid2 start*/
+.kid2{
+
+padding-top: 70px;
+padding-bottom: 40px;
+}
+	
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+ }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
